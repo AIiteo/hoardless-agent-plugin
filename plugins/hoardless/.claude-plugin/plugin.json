@@ -1,0 +1,13 @@
+{
+  "name": "hoardless",
+  "displayName": "Hoardless",
+  "version": "1.2.0",
+  "description": "Read-only disk context from the Hoardless Mac app: what fills the disk, a quiet low-space hook and a /hoardless:disk command. Needs Hoardless installed.",
+  "author": {
+    "name": "Hoardless",
+    "url": "https://hoardless.app"
+  },
+  "keywords": ["disk", "storage", "mac", "macos", "cleanup", "dev-caches", "mcp"],
+  "license": "MIT",
+  "homepage": "https://hoardless.app/mcp"
+}

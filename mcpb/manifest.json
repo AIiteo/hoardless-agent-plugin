@@ -1,0 +1,33 @@
+{
+  "manifest_version": "0.3",
+  "name": "hoardless",
+  "display_name": "Hoardless",
+  "version": "1.2.0",
+  "description": "Read-only Mac disk usage from the Hoardless app: storage, dev caches, unused items, growth.",
+  "long_description": "Starts the MCP server that ships inside the Hoardless app for macOS. Needs Hoardless installed and opened once. The server reads your Hoardless scan and can build a cleanup preview. It has no tool that moves, trashes or deletes anything.",
+  "author": {
+    "name": "Hoardless",
+    "url": "https://hoardless.app"
+  },
+  "homepage": "https://hoardless.app/mcp",
+  "documentation": "https://hoardless.app/mcp",
+  "support": "https://hoardless.app/support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIiteo/hoardless-agent-plugin"
+  },
+  "license": "MIT",
+  "keywords": ["disk", "storage", "mac", "macos", "cleanup", "dev-caches"],
+  "server": {
+    "type": "binary",
+    "entry_point": "server/hoardless-mcp.sh",
+    "mcp_config": {
+      "command": "/bin/sh",
+      "args": ["${__dirname}/server/hoardless-mcp.sh"],
+      "env": {}
+    }
+  },
+  "compatibility": {
+    "platforms": ["darwin"]
+  }
+}

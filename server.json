@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AIiteo/hoardless",
+  "title": "Hoardless",
+  "description": "Read-only Mac disk usage from the Hoardless app: storage, dev caches, unused items, growth.",
+  "repository": {
+    "url": "https://github.com/AIiteo/hoardless-agent-plugin",
+    "source": "github"
+  },
+  "websiteUrl": "https://hoardless.app/mcp",
+  "version": "1.2.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/AIiteo/hoardless-agent-plugin/releases/download/v1.2.0/hoardless.mcpb",
+      "fileSha256": "f128f2c2291a407beb13ed81f3a806c35a7e002e2f8fa5b1c7e8a1d2b986eaac",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

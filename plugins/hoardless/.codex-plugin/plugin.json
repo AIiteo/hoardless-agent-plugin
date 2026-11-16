@@ -1,0 +1,18 @@
+{
+  "name": "hoardless",
+  "version": "1.2.0",
+  "description": "Read-only disk context from Hoardless: a quiet low-space hook and a disk skill.",
+  "author": {
+    "name": "Hoardless"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Hoardless",
+    "shortDescription": "Read-only disk context from Hoardless",
+    "category": "Productivity"
+  },
+  "license": "MIT",
+  "homepage": "https://hoardless.app/mcp"
+}

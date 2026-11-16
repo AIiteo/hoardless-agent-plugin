@@ -1,0 +1,15 @@
+{
+  "name": "hoardless",
+  "description": "Read-only disk context from the Hoardless Mac app for coding agents",
+  "owner": {
+    "name": "Hoardless",
+    "url": "https://hoardless.app"
+  },
+  "plugins": [
+    {
+      "name": "hoardless",
+      "source": "./plugins/hoardless",
+      "description": "Read-only disk context from the Hoardless Mac app: what fills the disk, a quiet low-space hook and a /hoardless:disk command. Needs Hoardless installed."
+    }
+  ]
+}
